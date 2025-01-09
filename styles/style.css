@@ -147,9 +147,13 @@
 /*About US section Starts here*/
 #about-us{
     width: 950px;
-    display: flex;
-    justify-content: space-between;
-    
+   /* display: flex;
+    justify-content: space-between;*/
+
+}
+.abt-info{
+    margin-right: 0;
+    margin-top: 0;
 
 }
 #about-us img{
@@ -160,10 +164,11 @@
 .abt-details .abt-info{
     margin-top: 50px;
     display: flex;
-    justify-content: column;
+    flex-direction: column;
+    justify-content: center;
     font-family: work sans;
 }
-.abt-info .logo{
+.abt-info .logo img{
     width: 15px;
     height: 30px;
 }
