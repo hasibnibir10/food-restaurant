@@ -3,18 +3,167 @@
     margin: 0;
     padding: 0;
 }
-#luffy{
-    background-color: aqua;
-    background-image: url("../assets/hero-bg.png");
-    height: 1080px;
-    width: 1902px;
-    background-repeat: no-repeat;
-    /*background-size: cover; 
-    background-position: center;*/
+.btn{
+    
+    padding: 15px 25px 17px 26px;
+    color: rgb(255, 255, 255);
+    font-family: work sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(82, 195, 3);
+    border: none;
+
 }
-.container{
+/*Hero Section Starts here*/
+#hero{
+     
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 1020px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    font-family: 'Asul', sans-serif;
+    
+
+}
+
+#hero .hero-content{
+  
+    width: 880px;
+
+}
+
+#hero .hero-content .subtitle{
+    opacity: 0.8;
+    color: rgb(255,255,255);
+    font-family: work sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    
+}
+#hero .hero-content .title{
+    color: rgb(255,255,255);
+    font-family: work sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 14px ;
+   
+
+}
+#hero .hero-content .description{
+    color: rgb(255,255,255);
+    font-family: work sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 32px;
+    
+}
+.btn-container{
+    
+    text-align: center;
+}
+
+/*-----Hero Section Ends here-----*/
+
+#card-box{
+    width: 950px;
+    margin: 80px auto;
+}
+#card-box .info{
+    
+}
+
+#card-box .title{
+    color: rgb(0, 0, 0);
+    font-family: work sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    /*margin-bottom: 20px;*/
+}
+#card-box .subtitle{
+    color: rgb(16,16,16);
+    font-family: work sans;
+    font-size: 20px;
+    font-weight: 500  ;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    opacity: 0.6;
+
+
+}
+.card-container{
+  
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-family: work sans;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+   background-color: aqua; 
+   padding: 8px 32px 10px 32px;
+   border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+
+}
+.card .cen-description{
+    text-align: center;
+}
+/*About US section Starts here*/
+#about-us{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#about-us img{
+   /* position: absolute;*/
+    margin-left: 0;
+    margin-top: 0;
+}
+.abt-details .abt-info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: column;
+    font-family: work sans;
+}
+.abt-info .logo{
+    width: 15px;
+    height: 30px;
 }
