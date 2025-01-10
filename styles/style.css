@@ -87,9 +87,6 @@
     width: 950px;
     margin: 80px auto;
 }
-#card-box .info{
-    
-}
 
 #card-box .title{
     color: rgb(0, 0, 0);
@@ -145,30 +142,42 @@
     text-align: center;
 }
 /*About US section Starts here*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
 #about-us{
-    width: 950px;
-   /* display: flex;
-    justify-content: space-between;*/
-
-}
-.abt-info{
-    margin-right: 0;
-    margin-top: 0;
-
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 #about-us img{
-   /* position: absolute;*/
-    margin-left: 0;
-    margin-top: 0;
+    max-width: 650px;
+   
+    float: left;
+    border-radius: 10px;
+    border: 2px solid white;
 }
-.abt-details .abt-info{
+.abt-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abt-info .follow{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: auto;
+}
+
+/*-----------------------Contact-------------------------*/
+
+.contact{
     margin-top: 50px;
+    background: linear-gradient(0deg, rgb(250, 250, 250) 2.884%,rgba(251, 251, 251, 0.4) 101.034%) ,url(../assets/foods.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: work sans;
-}
-.abt-info .logo img{
-    width: 15px;
-    height: 30px;
+    align-items: center;
+    background-color: white;
+    padding: 50px 0;
 }
